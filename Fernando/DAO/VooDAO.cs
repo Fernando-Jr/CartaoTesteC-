@@ -91,7 +91,7 @@ namespace Fernando.DAO
                 v = (Entidade.Voo)voo;
                 conn = new SQLiteConnection(Utils.StringConexao.conexao());
                 conn.Open();
-                string querySQLite = "update tb_voo set " +
+                string querySQLite = "update tb_voo set  " +
 
                     "data_voo = @data_voo, " +
                     "custo = @custo," +
